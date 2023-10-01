@@ -1,0 +1,25 @@
+body
+{
+    font-family:'Open Sans', sans-serif;
+}
+
+.ksb
+{
+    height: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.ms-3
+{
+    margin-left: 6rem !important;
+}
+
+.BS
+{
+    font-size: 2rem;
+    font-family:monospace;
+    position: relative;
+    top: 0.6rem;
+}
+
