@@ -3,23 +3,37 @@ body
     font-family:'Open Sans', sans-serif;
 }
 
-.ksb
-{
-    height: 3rem;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
 .ms-3
 {
-    margin-left: 6rem !important;
+    margin-left: 12.8rem !important;
 }
 
-.BS
+
+
+.Brand img
 {
-    font-size: 2rem;
-    font-family:monospace;
-    position: relative;
-    top: 0.6rem;
+    width: 5.5%;
+    position: absolute;
+    z-index: 11;
+    top: 0.4rem;
+    left: 3rem;
+}
+
+.navbar
+{
+  z-index: 10;
+  background-color: #F8EDE3 !important;
+}
+
+
+.btn-danger
+{
+    background-color: #85586F  !important;
+    
+}
+
+.btn-danger:hover
+{
+    opacity: 0.7;
 }
 
