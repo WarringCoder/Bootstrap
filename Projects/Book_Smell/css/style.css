@@ -12,11 +12,11 @@ body
 
 .Brand img
 {
-    width: 5.5%;
+    width: 7.5%;
     position: absolute;
     z-index: 11;
-    top: 0.4rem;
-    left: 3rem;
+    top: -0.6rem;
+    left: 2rem;
 }
 
 .top-bar
@@ -42,14 +42,23 @@ body
     background-color: #e6e6e6 !important;
     opacity: 0.9 !important;
 }
-
-.drpwn
-{
+.drpwn {
     margin-left: 15rem !important;
-
 }
-.s
-{
+
+
+.s {
     font-size: 1.3rem !important;
 }
 
+.imgg {
+    width: 60rem !important;
+    height: 20rem !important;
+
+}
+
+.serit {
+    width: 80% !important;
+    margin: auto;
+
+}
