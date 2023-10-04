@@ -41,6 +41,7 @@ body
 {
     background-color: #e6e6e6 !important;
     opacity: 0.9 !important;
+
 }
 .drpwn {
     margin-left: 15rem !important;
@@ -61,4 +62,47 @@ body
     width: 80% !important;
     margin: auto;
 
+}
+
+.card
+{
+    border: solid 0.09rem rgb(0, 0, 0, 0.5)  !important;
+    object-fit: cover !important;
+    display: inline-block;
+}
+
+.card:hover
+{
+    transform: translateY(-0.7rem) !important;
+    transition-duration: 0.7s !important;
+    opacity: 0.8;
+}
+
+
+.money
+{
+    width: 100% !important;
+    height: auto !important;
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.money h5
+{
+    font-size: 0.7rem !important;
+}
+
+.icon-group
+{
+    font-size: 0.7rem;
+}
+
+.second-content
+{
+    margin-left: 3.4rem;
 }
