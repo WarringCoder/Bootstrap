@@ -236,3 +236,59 @@ body
     align-items: center;
     font-size: 1rem;
 }
+
+.container-yay
+{
+    width: 86%;
+    margin: auto;
+}
+
+.container-y
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.yay-card
+{
+    border: solid 0.05rem black;
+    border-radius: 1rem;
+    position: relative;   
+}
+
+.yay-img
+{
+    width: 10rem;
+    height: 8rem;
+    border-radius: 1rem; 
+}
+
+.yay-card:hover > .hover
+{
+    visibility: visible; 
+}
+
+.hover
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;  
+}
+
+
+.hover span
+{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25rem;
+}
