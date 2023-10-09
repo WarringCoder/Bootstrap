@@ -292,3 +292,32 @@ body
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.25rem;
 }
+
+.sixty
+{
+    margin-top: 6rem;
+}
+
+.card-yaz
+{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.img-yaz
+{
+    height: 11.2rem; 
+    width: 10rem; 
+    object-fit:fill;
+}
+
+.card-text
+{
+    font-size: 0.77rem;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
