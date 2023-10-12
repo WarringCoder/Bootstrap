@@ -293,7 +293,7 @@ body
     font-size: 1.25rem;
 }
 
-.sixty
+.sixty-content
 {
     margin-top: 6rem;
 }
@@ -322,7 +322,7 @@ body
     opacity: 0.9;
 }
 
-.seventh-second
+.seventh-content
 {
     margin-top: 5rem;
 }
@@ -428,4 +428,36 @@ body
     margin-bottom: 0;
     font-size: 1.2rem;
     letter-spacing: 0.03rem;
+}
+
+.container-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #85586F;
+}
+
+.fff
+{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.843);
+}
+
+.ss
+{
+    font-size: 1.4rem;
+    margin-left: 0.16rem;
+}
+
+.copryt
+{
+    margin-top: 2.1rem;
+}
+
+.eight-content
+{
+    margin-bottom: 6rem;
 }
